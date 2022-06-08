@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatinho</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            background-image: url("../imagens/gatucho.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="botoes">
+        <button class="button1">Gatinhos</button>
+        <button class="button2">Gatitos</button>
+        <button class="button3">Gatuchos</button>
+        <button class="button4" onclick="addTexto()" id="bt">Gatineos</button>
+    </div>
+
+    <script>
+        function addTexto(){
+            document.getElementById("bt").innerHTML = "Gatineos miau";
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+#exemplo1{
+    background-image: url("../imagens/larry calvos.jpg"), url("../imagens/harry calvo.jpg");
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+}
+
+#exemplo2{
+    margin-top: 10px;
+    background-image: url("../imagens/larry calvos.jpg"), url("../imagens/harry calvo.jpg");
+    background-position: right bottom, left top;
+    background-size: 100px 80px;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+}
+
+ h1,p{
+     background-color: aliceblue;
+     width: fit-content;
+}
+
+.div1{
+    border: 1px solid black;
+    height: 150px;
+    width: 180px;
+    background-image: url("../imagens/larry calvos.jpg");
+    background-repeat: no-repeat;
+}
+
+.div2{
+    border: 1px solid black;
+    height: 190px;
+    width: 180px;
+    background-image: url("../imagens/larry calvos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div3{
+    border: 1px solid black;
+    height: 150px;
+    width: 180px;
+    background-image: url("../imagens/larry calvos.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.botoes{
+    display: grid;
+    grid-template-columns: 20vw;
+    gap: 20px;
+}
+
+button{
+    padding: 3vh;
+    border-radius: 40px;
+    border-color: #0E0A0B;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1.7vw;
+}
+
+.button1{
+    background-color: #CAB4D9;
+}
+
+.button1:hover{
+    box-shadow: 10px 10px 5px #6e6376;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button2{
+    background-color: #827E51;
+}
+
+.button2:hover{
+    color: #827E51;
+    background-color: #0E0A0B;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.button3{
+    background-color: #DB8CA1;
+}
+
+.button3:hover{
+    border-color: #ad0d3a;
+    border-style: double;
+    cursor: pointer;
+}
+
+.button4{
+    background-color: #F2C094;
+}
+
+.button4:hover{
+    cursor: pointer;
+}
