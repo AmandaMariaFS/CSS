@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradientes</title>
+
+    <style>
+        body{
+            margin: 0;
+            width: 100vw;
+        }
+
+        div{
+            height: 43vh;
+            width: 43vw;
+            margin: auto;
+        }
+
+        #grad1{
+            background: radial-gradient(#dac43a, #cf4194, #31c5d2);
+        }
+
+        #grad2{
+            background: repeating-radial-gradient(circle, #5d31cb 10%, #d47319 15%);
+        }
+
+        h3{
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <h3>Radial Gradient - Shapes</h3>
+
+    <div id="grad1"></div>
+    <div id="grad2"></div>
+</body>
+</html>
